@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/LeftToRight.png'); /* Replace with your image path */
+    background-size: contain; /* Ensures the image covers the entire page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+    background-position: center; /* Centers the image */
+    color: #e0e0e0; /* Keeps text readable */
+}
+
+html, body {
+    height: 100%; /* Ensures the body and html occupy full screen */
+    margin: 0;
+    padding: 0;
+}
+  
+  
+  
+.navbar {
+    background-color: #0d47a1; /* Neon blue navbar */
+  }
+  
+.navbar a.nav-link {
+    color: #e0e0e0; /* Light text for links */
+}
+  
+.navbar a.nav-link:hover {
+    color: #00e5ff; /* Aqua hover */
+}
+  
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #424242; /* Neon blue */
+    color: #000000; /* White text */
+}
+  
+#about, #contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #121212; /* Match dark theme */
+}
+  
+#services {
+    padding: 40px 20px;
+    background-color: #1e1e1e; /* Slightly lighter dark */
+}
+  
+.card {
+    background-color: #1e1e1e; /* Card background */
+    color: #e0e0e0; /* Light text */
+    border: 1px solid #00e5ff; /* Aqua border */
+}
+  
+.card-title {
+    color: #00e5ff; /* Aqua title */
+}
+  
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+  
+.btn-primary {
+    background-color: #00e5ff; /* Aqua button */
+    border: none;
+}
+  
+.btn-primary:hover {
+    background-color: #00b8d4; /* Darker aqua */
+}
+  
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d47a1; /* Neon blue footer */
+    color: #e0e0e0;
+}
+  
